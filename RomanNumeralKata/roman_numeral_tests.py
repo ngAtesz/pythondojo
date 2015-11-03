@@ -19,6 +19,9 @@ class RomanNumeralTest(unittest.TestCase):
         rn = RomanNumeral()
         self.assertEqual("II", rn.arabic_to_roman(2))
 
+    def test_four(self):
+        rn = RomanNumeral()
+        self.assertEqual("IV", rn.arabic_to_roman(4))
 
 if __name__ == "__main__":
     unittest.main()
